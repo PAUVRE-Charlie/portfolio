@@ -1,0 +1,5 @@
+.container {
+    padding: 40px 10%;
+    background-color: var(--primary-extraLight);
+    width: 100%;
+}
