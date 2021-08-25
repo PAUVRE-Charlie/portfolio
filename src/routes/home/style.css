@@ -1,5 +1,87 @@
 .home {
-	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
 }
+
+.home > div {
+	margin: 25px 0;
+}
+
+.home > div > div {
+	padding: 40px 10%;
+}
+
+/* HERO */
+
+.hero {
+	display: flex;
+	padding-right: 0!important;
+}
+
+.hero > img {
+	width: 38%;
+	margin: auto;
+}
+
+.hero > div > div {
+	margin: 25px;
+}
+
+.hero .hello {
+	display: flex;
+}
+
+.hero .introduction p {
+	margin-top: 10px;
+	padding-right: 10vw;
+}
+
+.hero .footerHero{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-right: 10vw;
+}
+
+.hero .socialMedia {
+	display: flex;
+	align-items: center;
+}
+
+.hero .socialMedia a {
+	margin-left: 18px;
+}
+
+/* SKILLS */
+
+.skills{
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+/* PROJECTS */
+
+.projects {
+	overflow: hidden;
+}
+
+.projects .intro {
+	display: flex;
+	width: 100%;
+}
+
+.projects .intro img {
+	width: 200px;
+	margin-left: 20px;
+}
+
+.projects .projectList {
+	transition: height 700ms ease-in-out;
+}
+
+.projects button {
+	margin: auto;
+}
+
