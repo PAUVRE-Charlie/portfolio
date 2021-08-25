@@ -13,3 +13,28 @@ html, body {
 #app {
 	height: 100%;
 }
+
+@font-face {
+    font-family: 'Rakkas';
+    src: url('Rakkas-Regular.eot');
+    src: local('Rakkas Regular'), local('Rakkas-Regular'),
+        url('Rakkas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Rakkas-Regular.woff2') format('woff2'),
+        url('Rakkas-Regular.woff') format('woff'),
+        url('Rakkas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('Questrial-Regular.eot');
+    src: local('Questrial'), local('Questrial-Regular'),
+        url('Questrial-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Questrial-Regular.woff2') format('woff2'),
+        url('Questrial-Regular.woff') format('woff'),
+        url('Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
