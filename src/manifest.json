@@ -1,0 +1,13 @@
+{
+  "name": "Charlie Pauvré - portfolio",
+  "short_name": "Charlie Pauvré",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#F9ECDE",
+  "icons": [
+    {"src":"assets/icons/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
+    {"src":"assets/icons/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
