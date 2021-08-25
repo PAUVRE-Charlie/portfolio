@@ -48,17 +48,18 @@ html, body {
 
 h1{
 	font-family: 'Rakkas';
-	font-size: 70px;
-	line-height: 104px;
+	font-size: 62px;
+	line-height: 85px;
 	font-weight: normal;
 	font-size: normal;
 	color: var(--primary-dark);
+	white-space: nowrap;
 }
 
 h2{
 	font-family: 'Rakkas';
-	font-size: 52px;
-	line-height: 78px;
+	font-size: 45px;
+	line-height: 55px;
 	font-weight: normal;
 	font-size: normal;
 	color: var(--primary-dark);
@@ -66,7 +67,7 @@ h2{
 
 h3 {
 	font-family: 'Questrial';
-	font-size: 28px;
+	font-size: 24px;
 	line-height: 30px;
 	font-weight: normal;
 	font-size: normal;
@@ -75,17 +76,17 @@ h3 {
 
 h4 {
 	font-family: 'Rakkas';
-	font-size: 21px;
-	line-height: 31px;
-	font-weight: normal;
-	font-size: bold;
-	color: var(--primary-dark);
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	font-size: normal;
+	color: var(--grey);
 }
 
 p {
 	font-family: 'Questrial';
-	font-size: 21px;
-	line-height: 27px;
+	font-size: 18px;
+	line-height: 24px;
 	font-weight: normal;
 	font-size: normal;
 	color: var(--grey);
@@ -93,15 +94,39 @@ p {
 
 small {
 	font-family: 'Questrial';
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 14px;
+	line-height: 20px;
 	font-weight: normal;
 	font-size: normal;
 	color: var(--grey);
 }
 
+button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 24px;
+	border-radius: 4px;
+	background-color: var(--primary-dark);
+	color: var(--white);
+	font-family: 'Questrial';
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: normal;
+	font-size: normal;
+	cursor: pointer;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+	cursor: pointer;
+	line-height: 0px;
+}
+
 #app {
-	height: 100%;
 	padding: 24px 8%;
+	min-height: 100%;
 	background-color: var(--primary-light);
 }
