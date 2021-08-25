@@ -10,31 +10,98 @@ html, body {
 	margin: 0;
 }
 
-#app {
-	height: 100%;
+:root {
+  --white: #FBFBFB;
+  --black: #151620;
+  --grey: #7B868F;
+  --primary-dark: #45392F;
+  --primary-medium: #A57E59;
+  --primary-light: #F9ECDE;
+  --primary-extraLight: #FCF7F1;
+  --secondary: #DBB85F;
+  --tertiary: #91B5C8;
 }
 
 @font-face {
     font-family: 'Rakkas';
-    src: url('Rakkas-Regular.eot');
+    src: url('assets/fonts/rakkas/Rakkas-Regular.eot');
     src: local('Rakkas Regular'), local('Rakkas-Regular'),
-        url('Rakkas-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Rakkas-Regular.woff2') format('woff2'),
-        url('Rakkas-Regular.woff') format('woff'),
-        url('Rakkas-Regular.ttf') format('truetype');
+        url('assets/fonts/rakkas/Rakkas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/rakkas/Rakkas-Regular.woff2') format('woff2'),
+        url('assets/fonts/rakkas/Rakkas-Regular.woff') format('woff'),
+        url('assets/fonts/rakkas/Rakkas-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Questrial';
-    src: url('Questrial-Regular.eot');
+    src: url('assets/fonts/questrial/Questrial-Regular.eot');
     src: local('Questrial'), local('Questrial-Regular'),
-        url('Questrial-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Questrial-Regular.woff2') format('woff2'),
-        url('Questrial-Regular.woff') format('woff'),
-        url('Questrial-Regular.ttf') format('truetype');
+        url('assets/fonts/questrial/Questrial-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/questrial/Questrial-Regular.woff2') format('woff2'),
+        url('assets/fonts/questrial/Questrial-Regular.woff') format('woff'),
+        url('assets/fonts/questrial/Questrial-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+h1{
+	font-family: 'Rakkas';
+	font-size: 70px;
+	line-height: 104px;
+	font-weight: normal;
+	font-size: normal;
+	color: var(--primary-dark);
+}
+
+h2{
+	font-family: 'Rakkas';
+	font-size: 52px;
+	line-height: 78px;
+	font-weight: normal;
+	font-size: normal;
+	color: var(--primary-dark);
+}
+
+h3 {
+	font-family: 'Questrial';
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: normal;
+	font-size: normal;
+	color: var(--primary-dark);
+}
+
+h4 {
+	font-family: 'Rakkas';
+	font-size: 21px;
+	line-height: 31px;
+	font-weight: normal;
+	font-size: bold;
+	color: var(--primary-dark);
+}
+
+p {
+	font-family: 'Questrial';
+	font-size: 21px;
+	line-height: 27px;
+	font-weight: normal;
+	font-size: normal;
+	color: var(--grey);
+}
+
+small {
+	font-family: 'Questrial';
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: normal;
+	font-size: normal;
+	color: var(--grey);
+}
+
+#app {
+	height: 100%;
+	padding: 24px 8%;
+	background-color: var(--primary-light);
+}
