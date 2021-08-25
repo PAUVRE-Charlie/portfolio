@@ -1,0 +1,27 @@
+:root {
+    --header-height: 46px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.header img {
+    height: var(--header-height);
+    width: var(--header-height);
+}
+
+.header div {
+    display: flex;
+    justify-items: center;
+}
+
+.header div p {
+    padding: 0 50px;
+    line-height: var(--header-height);
+    vertical-align: middle;
+	color: var(--primary-dark);
+}
