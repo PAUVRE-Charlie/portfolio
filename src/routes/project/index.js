@@ -5,7 +5,7 @@ import style from './style.css'
 const Profile = ({ project }) => {
   return (
     <div className={style.project}>
-      <h1>Project: {project.capitalize()}</h1>
+      <h1>Project: {project}</h1>
     </div>
   )
 }
