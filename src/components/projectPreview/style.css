@@ -1,0 +1,45 @@
+.projectPreview {
+    display: flex;
+}
+
+.projectPreview .preview {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    transform: translate(-10%, -10%);
+    display: grid;
+    place-items: center;
+}
+
+.projectPreview .preview .shape {
+    position: absolute;
+    inset: auto 10%;
+    height: 80%;
+
+}
+
+.projectPreview .preview .image {
+    position: absolute;
+    inset: auto 0%;
+    height: 100%;
+}
+
+.projectPreview .info {
+    width: 55%;
+}
+
+.projectPreview .info > a:hover {
+    text-decoration: underline!important;
+}
+
+.projectPreview h4 {
+   margin-bottom: 20px;
+}
+
+.projectPreview > div > div {
+   margin-top: 20px;
+}
+
+.projectPreview .info div > a {
+    margin-right: 40px;
+}
