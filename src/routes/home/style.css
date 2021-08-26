@@ -85,3 +85,16 @@
 	margin: auto;
 }
 
+/* SIGNATURE */
+
+.signature {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signature img {
+	height: 35px;
+	transform: translateY(-5px);
+}
+

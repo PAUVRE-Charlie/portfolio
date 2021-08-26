@@ -1,14 +1,16 @@
 import { h } from 'preact'
 import { useState } from 'react'
+import { Element } from 'react-scroll'
 import style from './style.css'
 
 import Header from '../../components/header'
 import Container from '../../components/container'
 import Skill from '../../components/skill'
 import ProjectPreview from '../../components/projectPreview'
+import Footer from '../../components/footer'
 
 import * as images from '../../assets/images'
-import {github_dark, linkedin} from '../../assets/icons'
+import {github_dark, linkedin, logo} from '../../assets/icons'
 import {resume_english} from '../../assets/files'
 
 const Home = () => {
@@ -134,7 +136,7 @@ const Home = () => {
   }
 
   return <div className={style.home}>
-    <Header />
+    <Header/>
     {/* HERO */}
     <Container>
       <div className={style.hero}>
@@ -161,7 +163,7 @@ const Home = () => {
 
     {/* SKILLS */}
     <Container>
-      <div>
+      <Element name='skills' >
         <h1>My Skills</h1>
         <h3>Passionate about front-end development, UX/UI Design Enthusiast 💡</h3>
         <div className={style.skills}>
@@ -169,12 +171,12 @@ const Home = () => {
           <Skill image={images.skill2} shape={images.shape2} title='Back-end & App' description='Back-end dev in Python, Node, Apollo/Express, Graphql, React, Flutter, Java, XML' />
           <Skill image={images.skill3} shape={images.shape3} title='CMS' description='I can develop and configure Wordpress, Shopify, AWS and Docker' />
         </div>
-      </div>
+      </Element>
     </Container>
 
     {/* PROJECTS */}
     <Container>
-      <div className={style.projects}>
+      <Element name='projects' className={style.projects}>
         <div className={style.intro}>
           <div>
             <h1>My Projects</h1>
@@ -196,8 +198,14 @@ const Home = () => {
           }
         </div>
         <button onClick={expanded ? handleLessProject : handleMoreProject}>{expanded ? 'Less projects' : 'More projects'}</button>
-      </div>
+      </Element>
     </Container>
+    <Footer />
+    <div className={style.signature}>
+      <p>Made with</p>
+      <img src={logo} />
+      <p>by Charlie Pauvré</p>
+    </div>
   </div>
 }
 
