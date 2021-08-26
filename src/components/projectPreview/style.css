@@ -25,7 +25,8 @@
 }
 
 .projectPreview .info {
-    width: 55%;
+    width: 100%;
+    margin-left: 200px;
 }
 
 .projectPreview .info > a:hover {
