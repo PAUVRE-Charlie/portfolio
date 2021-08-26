@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > div > div {
+    margin-top: 50px;
+}
+
+.footer > div > div > h3 {
+    color: var(--primary-medium);
+    margin-bottom: 24px;
+}
