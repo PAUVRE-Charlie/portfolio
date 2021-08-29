@@ -1,24 +1,31 @@
 import { h } from 'preact'
+import { useState } from 'react'
 import style from './style.css'
+
+import { Text } from '../../components/language'
+import en from '../../assets/data/languages/en.json'
 
 import { github_medium, web } from '../../assets/icons'
 
 import { shape1 } from '../../assets/images'
 
-export default ({name, folderName, description, linkWeb, linkGithub, context, date, team, process}) => (
-    <div className={style.projectPreview}>
+export default ({project}) => {
+
+    const [hover, setHover] = useState(false)
+
+    return <div className={style.projectPreview}>
         <div className={style.preview}>
-            <img className={style.shape} src={shape1} />
-            <a className={style.image} href={`project/${folderName}`}><img className={style.image} src={`../../assets/images/${folderName}/preview.png`} /></a>
+            <img className={style.shape} src={shape1} alt='shape' />
+            <a className={style.image} href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></a>
         </div>
         <div className={style.info}>
-            <a className={style.image} href={`project/${folderName}`}><h2>{name}</h2></a>
-            <h4>{date}</h4>
-            <small>{description}</small>
+            <a className={style.image} style={{ textDecoration: hover ? 'underline' : null }} href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h2><Text id={`projects.${project}.name`} /></h2></a>
+            <h4><Text id={`projects.${project}.date`} /></h4>
+            <small><Text id={`projects.${project}.description`} /></small>
             <div>
-                {linkWeb && <a href={linkWeb} rel="noreferrer" target="_blank"><img src={web} /></a>}
-                {linkGithub && <a href={linkGithub} rel="noreferrer" target="_blank"><img src={github_medium} /></a>}
+                {en.projects[project].web && <a href={en.projects[project].web} rel="noreferrer" target="_blank"><img src={web} alt='webLink' /></a>}
+                {en.projects[project].github && <a href={en.projects[project].github} rel="noreferrer" target="_blank"><img src={github_medium} alt='githubLink' /></a>}
             </div>
         </div>
     </div>
-)
+}

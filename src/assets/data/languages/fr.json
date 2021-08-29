@@ -1,0 +1,178 @@
+{
+  "header": {
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "hello": "Bonjour je suis Charlie 👋🏻",
+    "job": "Un Développeur Front-end basé à Bruxelles",
+    "intro1": "Je suis développeur web et développeur d’applications et je porte un intérêt particulier au design et à l’innovation. Je m’intéresse également beaucoup aux techniques permettant de créer une expérience utilisateur optimale et celles permettant d’avoir un faible impact environemental.",
+    "intro2": "J'ai grandi à Paris et étudié à IMT Atlantique à Nantes. Je travaille en ce moment à Bruxelles (Belgique) et je voudrais continuer de voyager afin de découvrir de nouvelles villes et cultures.",
+    "downloadResume": "Télécharger mon CV 📭",
+    "skills": {
+      "title": "Mes Compétences",
+      "subtitle": "Passionné par le développement front-end et l'UX/UI 💡",
+      "skill1": {
+        "title": "Front-end et Design",
+        "description": "Développement Front-end en HTML/CSS, Javascript, TypeScript et Design sur Figma, Adobe XD, Illustrator"
+      },
+      "skill2": {
+        "title": "Back-end & App",
+        "description": "Développement Back-end en Python, Node, Apollo/Express, Graphql, React, Flutter, Java, XML"
+      },
+      "skill3": {
+        "title": "CMS",
+        "description": "Je peux développer et configurer sur Wordpress, Shopify, AWS et Docker"
+      }
+    },
+    "projects": {
+      "title": "Mes projets",
+      "subtitle": "Découvrez les projets sur lesquels j'ai travaillé durant mes stages, études et projets personnels 🚀 ",
+      "less": "Voir moins",
+      "more": "Voir plus"
+    }
+  },
+  "project": {
+    "launchWeb": "Aller sur le site 🚀",
+    "context": {
+      "title": "Contexte 💡",
+      "date": "Date",
+      "company": "Entreprise",
+      "team": "Équipe"
+    },
+    "process": {
+      "title": "Méthode 🚀"
+    },
+    "screens": {
+      "title": "Écrans 👌🏻"
+    },
+    "more": {
+      "title": "Projets similaires",
+      "subtitle": "Allez regarder d'autres projets 🔎"
+    }
+  },
+  "footer": {
+    "title": "Vous voulez en savoir plus?",
+    "subtitle": "Discutons autour d'un pot de popcorn 🍿",
+    "mail": "Mail : chpauvre@gmail.com",
+    "tel": "Tel : +33 6 67 62 42 64"
+  },
+  "signature": {
+    "madeWith": "Fait avec",
+    "author": "par Charlie Pauvré"
+  },
+  "projects": {
+    "arc": {
+      "name": "Atlantic Robotic Club",
+      "folderName": "arc",
+      "description": "",
+      "smallDescription": "",
+      "context": "",
+      "date": "Septembre 2020 - Janvier 2021",
+      "company": "IMT Atlantique",
+      "team": [],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    },
+    "barbart": {
+      "name": "Barb'Art",
+      "folderName": "barbart",
+      "description": "",
+      "smallDescription": "",
+      "context": "",
+      "date": "Juillet 2020 - Décembre 2020",
+      "company": "BDE d'IMT Atlantique",
+      "team": ["Thomas Rossi"],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    },
+    "caps": {
+      "name": "Caps",
+      "folderName": "caps",
+      "description": "",
+      "smallDescription": "",
+      "context": "",
+      "date": "Janvier 2021 - Mars 2021",
+      "company": "BDE d'IMT Atlantique",
+      "team": ["Pierre Schmutz"],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    },
+    "dataneo": {
+      "name": "Dataneo",
+      "folderName": "dataneo",
+      "description": "",
+      "smallDescription": "",
+      "context": "",
+      "date": "Mars 2021",
+      "company": "Wolfox",
+      "team": ["Alexandre Brajeux", "Eva Vermot"],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    },
+    "mangakan": {
+      "name": "Mangakan",
+      "folderName": "mangakan",
+      "description": "Avec une amie, je design et développe une application dont le but est d'aider les lecteurs de mangas et manhwas à suivre leurs avancements dans leur lecture. Nous utilisons Figma pour le design, et Reactjs et MongoDB pour le code.",
+      "smallDescription": "Une application dont le but est d'aider les lecteurs de mangas et manhwas à suivre leurs avancements dans leur lecture",
+      "context": "",
+      "date": "Avril 2021 - auj",
+      "team": ["Chloé Oulabsir"],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    },
+    "tgeu": {
+      "name": "Trans Rights Map",
+      "folderName": "tgeu",
+      "description": "J'ai travaillé avec une designer pendant 1.5 mois pour construire une version interactive de la carte de répartition des droits des trans, en anglais et russe, à l'occasion du jour international contre l'homophobie, la biphobie et la transphobie.",
+      "smallDescription": "",
+      "context": "A l'occasion du jour international contre l'homophobie, la biphobie et la transphobie, TGEU (Trans Gender Europe) voulait construire un site internet qui représente la répartition des droits des personnes trans en Europe et en Asie Centrale. Ils voulaient que cette répartition soit représentée sur des cartes et ils nous fournissaient les donées sous forme de tableaux Excel.",
+      "date": "Avril - Mai 2021",
+      "company": "Wolfox",
+      "team": ["Mia Chávez Ruz"],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    },
+    "ublo": {
+      "name": "Ublo",
+      "folderName": "ublo",
+      "description": "J'ai travaillé avec des designer et d'autres développeurs pour construire une solution de gestion immobilière pour les bailleurs publics, en utilisant React avec une api REST. J'étais aussi en charge de créer les containers Docker et de les déployer sur AWS.",
+      "smallDescription": "Une solution de gestion immobilière pour bailleurs publics",
+      "context": "",
+      "date": "Juin & Juillet 2021",
+      "company": "Ublo",
+      "team": ["Équipe dev d'Ublo"],
+      "process": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+      ]
+    }
+  }
+}

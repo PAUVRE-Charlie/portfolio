@@ -1,16 +1,23 @@
 import { h } from 'preact'
 import { Link } from 'react-scroll'
 import style from './style.css'
-import { logo } from '../../assets/icons'
 
-export default () => {
+import LanguageSelector from '../languageSelector'
+
+import { logo } from '../../assets/icons'
+import { Text } from '../language'
+
+export default ({tabs}) => {
 
     return <div className={style.header}>
-        <img src={logo} />
+        <a href={'/'}><img src={logo} alt='logo' /></a>
         <div>
-            <Link to='skills'><p>Skills</p></Link>
-            <Link to='projects'><p>Projects</p></Link>
-            <Link to='contact'><p>Contact</p></Link>
+            {
+                tabs && tabs.length && tabs.map(tab => (
+                    <Link to={tab}><p><Text id={`header.${tab}`} /></p></Link>
+                ))
+            }
+            <LanguageSelector />
         </div>
     </div>
 }

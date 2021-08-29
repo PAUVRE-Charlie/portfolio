@@ -4,13 +4,16 @@ import { Router } from 'preact-router'
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home'
 import Project from '../routes/project'
+import { LanguageProvider } from './language'
 
 const App = () => (
   <div id='app'>
-    <Router>
-      <Home path='/' />
-      <Project path='/project/:project' />
-    </Router>
+    <LanguageProvider>
+      <Router>
+        <Home path='/'/>
+        <Project path='/project/:project' />
+      </Router>
+    </LanguageProvider>
   </div>
 )
 

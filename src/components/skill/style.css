@@ -20,8 +20,10 @@
 
 .skill .image {
     position: absolute;
-    inset: 20% auto;
-    height: 60%;
+}
+
+.skill img {
+    height: 100%;
 }
 
 .skill h3 {
