@@ -5,6 +5,7 @@ import Header from '../../components/header'
 import Container from '../../components/container'
 import Footer from '../../components/footer'
 import Signature from '../../components/signature'
+import SmallRect from '../../components/smallRect'
 
 import { github_medium } from '../../assets/icons'
 import Skill from '../../components/skill'
@@ -26,6 +27,9 @@ const Profile = ({ project }) => {
       <Container>
         <div className={style.intro}>
           <div className={style.preview}>
+            <SmallRect position={{top: '0%', left: '50%'}} />
+            <SmallRect position={{top: '70%', left: '20%'}} />
+            <SmallRect position={{top: '30%', left: '100%'}} />
             <img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' />
           </div>
           <div className={style.info}>

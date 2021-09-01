@@ -3,6 +3,7 @@ import { useState } from 'react'
 import style from './style.css'
 
 import { Text } from '../../components/language'
+import SmallRect from '../../components/smallRect'
 import en from '../../assets/data/languages/en.json'
 
 import { github_medium, web } from '../../assets/icons'
@@ -16,6 +17,9 @@ export default ({project}) => {
     return <div className={style.projectPreview}>
         <div className={style.preview}>
             <img className={style.shape} src={shape1} alt='shape' />
+            <SmallRect />
+            <SmallRect />
+            <SmallRect />
             <a className={style.image} href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></a>
         </div>
         <div className={style.info}>

@@ -14,12 +14,12 @@
 /* HERO */
 
 .hero {
+	position: relative;
 	display: flex;
-	padding-right: 0!important;
 }
 
-.hero > img {
-	width: 38%;
+.hero .imageContainer {
+	position: relative;
 	margin: auto;
 }
 
@@ -27,20 +27,8 @@
 	margin: 25px;
 }
 
-.hero .hello {
-	display: flex;
-}
-
 .hero .introduction p {
 	margin-top: 10px;
-	padding-right: 10vw;
-}
-
-.hero .footerHero{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	padding-right: 10vw;
 }
 
 .hero .socialMedia {
@@ -55,10 +43,8 @@
 /* SKILLS */
 
 .skills{
-	display: flex;
 	width: 100%;
 	margin-top: 20px;
-	justify-content: space-between;
 }
 
 /* PROJECTS */
@@ -83,4 +69,64 @@
 
 .projects button {
 	margin: 50px auto 0 auto;
+}
+
+@media screen and (min-width: 1201px) {
+	.hero {
+		padding-right: 0!important;
+	}
+
+	.hero .introduction p {
+		padding-right: 10vw;
+	}
+
+	.hero .footerHero{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		padding-right: 10vw;
+	}
+
+	.skills{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.home > div > div {
+		padding: 40px 4%;
+		text-align: center;
+	}
+
+	.hero {
+		display: block;
+	}
+
+	.hero .imageContainer {
+		display: grid;
+		place-items: center;
+	}
+
+	.hero .imageContainer img {
+		height: 300px;
+	}
+
+	.hero .footerHero{
+		display: grid;
+		place-items: center;
+	}
+
+	.hero .socialMedia {
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	.projects .intro img {
+		display: none;
+	}
+
+	.projects .projectList {
+		height: auto!important;
+	}
 }

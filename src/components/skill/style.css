@@ -1,5 +1,4 @@
 .skill {
-    width: 400px;
     margin: 0 20px;
     text-align: center;
 }
@@ -28,4 +27,10 @@
 
 .skill h3 {
     margin: 15px 0;
+}
+
+@media screen and (min-width: 1201px) {
+    .skill {
+        width: 400px;
+    }
 }

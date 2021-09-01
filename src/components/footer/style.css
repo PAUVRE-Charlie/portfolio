@@ -10,4 +10,17 @@
 .footer > div > div > h3 {
     color: var(--primary-medium);
     margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .footer > div{
+        width: 100%;
+    }
+
+    .footer img {
+        display: none;
+    }
 }

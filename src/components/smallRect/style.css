@@ -1,0 +1,4 @@
+.rect {
+    position: absolute;
+    transition: all 300ms ease-in-out;
+}

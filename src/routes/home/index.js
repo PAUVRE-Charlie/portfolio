@@ -9,6 +9,7 @@ import Skill from '../../components/skill'
 import ProjectPreview from '../../components/projectPreview'
 import Footer from '../../components/footer'
 import Signature from '../../components/signature'
+import SmallRect from '../../components/smallRect'
 
 import * as images from '../../assets/images'
 import {github_dark, linkedin} from '../../assets/icons'
@@ -35,7 +36,12 @@ const Home = () => {
     {/* HERO */}
     <Container>
       <div className={style.hero}>
-        <img src={images.deerHello} alt='deerHello' />
+        <div className={style.imageContainer}>
+          <img src={images.deerHello} alt='deerHello' />
+          <SmallRect position={{top: '0%', left: '65%'}} />
+          <SmallRect position={{top: '60%', left: '0%'}} />
+          <SmallRect position={{top: '50%', left: '75%'}} />
+        </div>
         <div style={{ overflow: 'hidden' }}>
           <div>
             <h1><Text id='home.hello' /></h1>

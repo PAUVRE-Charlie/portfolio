@@ -1,12 +1,5 @@
-.projectPreview {
-    display: flex;
-}
-
 .projectPreview .preview {
     position: relative;
-    height: 400px;
-    width: 400px;
-    transform: translate(-10%, -10%);
     display: grid;
     place-items: center;
 }
@@ -24,11 +17,6 @@
     height: 100%;
 }
 
-.projectPreview .info {
-    width: 100%;
-    margin-left: 200px;
-}
-
 .projectPreview .info > a:hover {
     text-decoration: underline!important;
 }
@@ -43,4 +31,42 @@
 
 .projectPreview .info div > a {
     margin-right: 40px;
+}
+
+@media screen and (min-width: 1201px) {
+    .projectPreview {
+        display: flex;
+    }
+
+    .projectPreview .preview {
+        height: 400px;
+        width: 400px;
+        transform: translate(-10%, -10%);
+    }
+
+    .projectPreview .info {
+        width: 100%;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .projectPreview {
+        display: grid;
+        place-items: center;
+        margin: 50px 0;
+    }
+
+    .projectPreview .info {
+        text-align: center;
+    }
+
+    .projectPreview .preview {
+        height: 250px;
+        width: 250px;
+    }
+    .projectPreview .info div > a {
+        margin: 0 20px;
+    }
 }
