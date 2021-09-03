@@ -17,7 +17,7 @@ import { Text } from '../../components/language'
 
 
 // Note: `user` comes from the URL, courtesy of our router
-const Profile = ({ project }) => {
+const Profile = ({ project, scroll }) => {
 
   const { app1, app2, web1, web2, web3, web4, web5 } =  images[project]
 

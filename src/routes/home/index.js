@@ -16,7 +16,7 @@ import {github_dark, linkedin} from '../../assets/icons'
 import {resume_english} from '../../assets/files'
 import { Text } from '../../components/language'
 
-const Home = () => {
+const Home = ({scroll}) => {
 
   const [expanded, setExpanded] = useState(false)
   const [showAllProjects, setShowAllProject] = useState(false)

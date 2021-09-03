@@ -26,3 +26,9 @@
     vertical-align: middle;
 	color: var(--primary-dark);
 }
+
+@media screen and (max-width: 1200px) {
+    .header div > a {
+        display: none;
+    }
+}

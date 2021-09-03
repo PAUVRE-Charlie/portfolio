@@ -5,7 +5,10 @@ import github_dark from './social_media/Github_dark.svg'
 import github_medium from './social_media/Github_medium.svg'
 import linkedin from './social_media/Linkedin.svg'
 
+import arrowUp from './arrowUp.svg'
+
 export {
     logo, web,
-    github_dark, github_medium, linkedin
+    github_dark, github_medium, linkedin,
+    arrowUp
 }

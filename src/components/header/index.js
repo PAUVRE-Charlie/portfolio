@@ -1,5 +1,5 @@
 import { h } from 'preact'
-import { Link } from 'react-scroll'
+import { Element, Link } from 'react-scroll'
 import style from './style.css'
 
 import LanguageSelector from '../languageSelector'
@@ -9,7 +9,7 @@ import { Text } from '../language'
 
 export default ({tabs}) => {
 
-    return <div className={style.header}>
+    return <Element name='header' className={style.header}>
         <a href={'/'}><img src={logo} alt='logo' /></a>
         <div>
             {
@@ -19,5 +19,5 @@ export default ({tabs}) => {
             }
             <LanguageSelector />
         </div>
-    </div>
+    </Element>
 }
