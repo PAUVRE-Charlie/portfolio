@@ -34,7 +34,7 @@ const Profile = ({ project, scroll }) => {
           </div>
           <div className={style.info}>
             <h1><Text id={`projects.${project}.name`} /></h1>
-            <small><Text id={`projects.${project}.description`} /></small>
+            <p><Text id={`projects.${project}.description`} /></p>
             <div>
               {en.projects[project].web && <a href={en.projects[project].web} rel="noreferrer" target="_blank"><button><Text id='project.launchWeb' /></button></a>}
               {en.projects[project].github && <a href={en.projects[project].github} rel="noreferrer" target="_blank"><img src={github_medium} alt='github' /></a>}
@@ -107,7 +107,7 @@ const Profile = ({ project, scroll }) => {
           <h3><Text id='project.more.subtitle' /></h3>
           <div className={style.skills}>
             {
-              (project === 'tgeu' ? ['dataneo', 'ublo', 'mangakan'] : project === 'ublo' ? ['tgeu', 'dataneo', 'mangakan'] : project === 'mangakan' ? ['tgeu', 'ublo', 'dataneo'] : ['tgeu', 'ublo', 'mangakan']).map(projectName => (
+              (project === 'tgeu' ? ['dataneo', 'mangakan', 'ublo'] : project === 'ublo' ? ['tgeu', 'mangakan', 'dataneo'] : project === 'mangakan' ? ['tgeu', 'dataneo', 'ublo'] : ['tgeu', 'mangakan', 'ublo']).map(projectName => (
                 <Skill image={images[projectName].preview} link={`../project/${projectName}`} imageSize='120%' shape={images.shape1} title={<Text id={`projects.${projectName}.name`} />} description={<Text id={`projects.${projectName  }.smallDescription`} />} />
               ))
             }

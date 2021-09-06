@@ -87,8 +87,8 @@ const Home = ({scroll}) => {
         </div>
         <div className={style.projectList} style={{height: expanded ? '2800px' : '1150px'}}>
           <ProjectPreview project='tgeu' />
-          <ProjectPreview project='ublo' />
           <ProjectPreview project='mangakan' />
+          <ProjectPreview project='ublo' />
           {
             showAllProjects && <>
               <ProjectPreview project='dataneo' />
