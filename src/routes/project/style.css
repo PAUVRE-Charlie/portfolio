@@ -129,7 +129,13 @@
 
 	.project .context {
 		width: 70%;
-		margin-right: 20px;
+		margin-right: 60px;
+	}
+
+	/* PROCESS */
+
+	.project .process p {
+		text-align: justify;
 	}
 
 	/* SCREENS */
