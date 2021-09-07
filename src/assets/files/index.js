@@ -1,4 +1,4 @@
-import resume_french from './CV_Charlie_Pauvre.pdf'
-import resume_english from './resume_Charlie_Pauvre.pdf'
+import resume_french from './cv_charlie_pauvre.pdf'
+import resume_english from './resume_charlie_pauvre.pdf'
 
 export { resume_french, resume_english }
