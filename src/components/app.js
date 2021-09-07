@@ -11,7 +11,12 @@ import GoTopButton from './goTopButton'
 
 const App = () => {
 
-  const [scroll, setScroll] = useState(window.pageYOffset || document.documentElement.scrollTop)
+  const getScroll = () => {
+    if(typeof window !== "undefined") return window?.pageYOffset
+    else if(typeof document !== "undefined") return document?.documentElement?.scrollTop
+    return 0
+  }
+  const [scroll, setScroll] = useState(getScroll())
 
   return <div id="app" onWheel={(e) => {if(e.pageY - e.clientY <= 600 || (scroll <= 600 && e.pageY - e.clientY > 600)) setScroll(e.pageY - e.clientY)}}>
     <LanguageProvider>

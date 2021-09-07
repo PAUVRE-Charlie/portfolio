@@ -10,7 +10,7 @@ import { Text } from '../language'
 export default ({tabs}) => {
 
     return <Element name='header' className={style.header}>
-        <a href={'/'}><img src={logo} alt='logo' /></a>
+        <a href={'/'}><img src={logo} alt='logo' native/></a>
         <div>
             {
                 tabs && tabs.length && tabs.map(tab => (

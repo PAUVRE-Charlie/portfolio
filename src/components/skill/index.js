@@ -16,13 +16,13 @@ export default ({image, imageSize, link, shape, title, description}) => {
             <SmallRect boost={link} reload={hover} />
             {
                 link ?
-                    <a href={link} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className={style.image} style={{ height: imageSize ?? '60%' }}><img src={image} alt='main_image' /></a>
+                    <a native href={link} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className={style.image} style={{ height: imageSize ?? '60%' }}><img src={image} alt='main_image' /></a>
                     : <img className={style.image} src={image} style={{ height: imageSize ?? '60%' }} alt='main_image' />
             }
         </div>
         {
             link ?
-                <a href={link} style={{textDecoration: hover ? 'underline': null}} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h3>{title}</h3></a>
+                <a native href={link} style={{textDecoration: hover ? 'underline': null}} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h3>{title}</h3></a>
                 : <h3>{title}</h3>
         }
         <small>{description}</small>

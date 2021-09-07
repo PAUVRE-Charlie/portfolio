@@ -20,10 +20,10 @@ export default ({project}) => {
             <SmallRect reload={hover} />
             <SmallRect reload={hover} />
             <SmallRect reload={hover} />
-            <a className={style.image} href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></a>
+            <a className={style.image} native href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></a>
         </div>
         <div className={style.info}>
-            <a className={style.image} style={{ textDecoration: hover ? 'underline' : null }} href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h2><Text id={`projects.${project}.name`} /></h2></a>
+            <a className={style.image} style={{ textDecoration: hover ? 'underline' : null }} native href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h2><Text id={`projects.${project}.name`} /></h2></a>
             <h4><Text id={`projects.${project}.date`} /></h4>
             <small><Text id={`projects.${project}.description`} /></small>
             <div>
