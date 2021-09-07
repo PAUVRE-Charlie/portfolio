@@ -1,5 +1,6 @@
 import { h } from 'preact'
 import style from './style.css'
+import { useEffect } from 'react'
 
 import Header from '../../components/header'
 import Container from '../../components/container'

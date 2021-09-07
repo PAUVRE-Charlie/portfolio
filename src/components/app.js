@@ -12,6 +12,7 @@ import Project from '../routes/project'
 import { LanguageProvider } from './language'
 
 import GoTopButton from './goTopButton'
+import ScrollToTop from './scrollToTop';
 
 const App = () => {
 
@@ -34,13 +35,20 @@ const App = () => {
       }}
     >
       <LanguageProvider>
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <Home scroll={scroll} />
-            </Route>
-            <Route path="/project/:project" children={({ match }) => <Project scroll={scroll} project={match.params.project} />} />
-          </Switch>
+        <Router onUpdate={() => window.scrollTo(0, 0)}>
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/">
+                <Home scroll={scroll} />
+              </Route>
+              <Route
+                path="/project/:project"
+                children={({ match }) => (
+                  <Project scroll={scroll} project={match.params.project} />
+                )}
+              />
+            </Switch>
+          </ScrollToTop>
         </Router>
       </LanguageProvider>
       <GoTopButton scroll={scroll} />
