@@ -5,7 +5,7 @@
   "homepage": "./",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "npm install preact-cli && preact build",
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint .",
