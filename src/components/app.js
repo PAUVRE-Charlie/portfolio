@@ -1,6 +1,10 @@
 import { h } from 'preact'
 import { useState } from 'react'
-import { Router } from 'preact-router'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home'
@@ -18,15 +22,30 @@ const App = () => {
   }
   const [scroll, setScroll] = useState(getScroll())
 
-  return <div id="app" onWheel={(e) => {if(e.pageY - e.clientY <= 600 || (scroll <= 600 && e.pageY - e.clientY > 600)) setScroll(e.pageY - e.clientY)}}>
-    <LanguageProvider>
-      <Router>
-        <Home path='/' scroll={scroll} />
-        <Project path='/project/:project' scroll={scroll} />
-      </Router>
-    </LanguageProvider>
-    <GoTopButton scroll={scroll} />
-  </div>
+  return (
+    <div
+      id="app"
+      onWheel={(e) => {
+        if (
+          e.pageY - e.clientY <= 600 ||
+          (scroll <= 600 && e.pageY - e.clientY > 600)
+        )
+          setScroll(e.pageY - e.clientY);
+      }}
+    >
+      <LanguageProvider>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home scroll={scroll} />
+            </Route>
+            <Route path="/project/:project" children={({ match }) => <Project scroll={scroll} project={match.params.project} />} />
+          </Switch>
+        </Router>
+      </LanguageProvider>
+      <GoTopButton scroll={scroll} />
+    </div>
+  );
 }
 
 export default App

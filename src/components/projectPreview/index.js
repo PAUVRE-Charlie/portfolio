@@ -1,5 +1,6 @@
 import { h } from 'preact'
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 import style from './style.css'
 
 import { Text } from '../../components/language'
@@ -20,10 +21,10 @@ export default ({project}) => {
             <SmallRect reload={hover} />
             <SmallRect reload={hover} />
             <SmallRect reload={hover} />
-            <a className={style.image} native href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></a>
+            <Link className={style.image} to={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></Link>
         </div>
         <div className={style.info}>
-            <a className={style.image} style={{ textDecoration: hover ? 'underline' : null }} native href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h2><Text id={`projects.${project}.name`} /></h2></a>
+            <Link className={style.image} style={{ textDecoration: hover ? 'underline' : null }} to={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h2><Text id={`projects.${project}.name`} /></h2></Link>
             <h4><Text id={`projects.${project}.date`} /></h4>
             <small><Text id={`projects.${project}.description`} /></small>
             <div>

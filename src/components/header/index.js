@@ -1,5 +1,6 @@
 import { h } from 'preact'
-import { Element, Link } from 'react-scroll'
+import { Element } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import style from './style.css'
 
 import LanguageSelector from '../languageSelector'
@@ -10,7 +11,7 @@ import { Text } from '../language'
 export default ({tabs}) => {
 
     return <Element name='header' className={style.header}>
-        <a href={'/'}><img src={logo} alt='logo' native/></a>
+        <Link to={'/'}><img src={logo} alt='logo'/></Link>
         <div>
             {
                 tabs && tabs.length && tabs.map(tab => (
