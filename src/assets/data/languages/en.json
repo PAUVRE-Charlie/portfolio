@@ -68,7 +68,7 @@
       "folderName": "arc",
       "description": "I developped a website in React to present the robot that the robotic club of my school is currently building to participate to the \"Coupe de France de robotique\" (French Robotics Cup)",
       "smallDescription": "Website for French Robotic Cup",
-      "context": "I studied 3 years at IMT Atlantique, a french engineering school based in Nantes and Brest. With some friends there, we revived the robotic club and decided to participate to the \"Coupe de France de robotique\" (French Robotics Cup). My main task was to build this website: its purpose was to present to students that would come after us how we built our robot, what were our thinking, methods and decisions, so that they would be able to take over the club at the end of the year.",
+      "context": "I studied 3 years at IMT Atlantique, a french engineering school based in Nantes, Rennes and Brest. With some friends there, we revived the robotic club of the school and decided to participate to the \"Coupe de France de robotique\" (French Robotics Cup). My main task was to build this website: its purpose was to present to students that would come after us how we built our robot, what were our thinking, methods and decisions, so that they would be able to take over the club at the end of the year.",
       "date": "September 2020 - January 2021",
       "company": "IMT Atlantique",
       "web": "https://atlantic-robotic-club.netlify.app/",
@@ -76,23 +76,23 @@
       "process": [
         "I started by gathering the articles and some data about the competition and the robot itself by talking with the team.",
         "Then, I explored the school website and social media to find the design system that would best fit the project. It appeared their main colors were light blue and gold.",
-        "I did my design using Figma and after both my team and I were satisfied, I decided to plan the coding part. I developed the website following a calendar and using React with Typescrit and Sass."
+        "I did my design using Figma and after both my team and I were satisfied, I started to plan the coding part. I developed the website following a calendar and using React with Typescrit and Sass."
       ]
     },
     "barbart": {
       "name": "Barb'Art",
       "folderName": "barbart",
       "description": "I used Flutter to develop an app to centralize all the information necessary for life on our campus and let people enroll in sports and art clubs.",
-      "smallDescription": "Aa flutter app for the Student Union of my school",
+      "smallDescription": "A flutter app for the Student Union of my school",
       "context": "During my Msc 1, with a good friend of mine, I decided to take on a new project. In our school, there are many different sources of information and people were often complaining about it. So we decided to create an app that would make every students' life easier. Its main goal is to gather the main announcements of the Student Union, but it was also to let people enroll in sports and art clubs and book the music room.",
       "date": "July 2020 - December 2020",
       "company": "BDE of IMT Atlantique",
       "team": "Thomas Rossi",
       "github": "https://github.com/ThomRI/BarbArt",
       "process": [
-        "Our first weeks were about designing the project. We talked a lot with others students to understand what they really needed and wanted and then we designed the app on Figma.",
+        "Our first weeks were about conceiving the project. We talked a lot with others students to understand what they really needed and wanted and then we designed the app on Figma.",
         "We divided the work in two : he was in charge of the backend and me the frontend. I used Flutter because I did not wanted to have to code 2 times the app, for android and IOS.",
-        "We worked together, sometimes remotely sometimes gathered in the same room, and we achieved to create a first functionning version of the app.",
+        "We worked together for some months, sometimes remotely, and we achieved to create a first version of the app.",
         "Then, we both did not have the time to finish this project so we decided to pass the torch on to younger students of our school, that are still working on the project at this day."
       ]
     },
@@ -100,8 +100,8 @@
       "name": "Caps",
       "folderName": "caps",
       "description": "With a friend, I designed the app on Figma and built it using Flutter. This app targets students and its purpose is to assist them when playing a game called Caps that is played with beer bottle capsules.",
-      "smallDescription": "An app to assist them when playing a game called Caps that is played with beer bottle capsules.",
-      "context": "With another student of my class, when playing a game of Caps, a game played with beer bottle capsules, we felt like we could make the game easier to play with an app. With it, you can can the points, create tournaments and see your ranking and stats.",
+      "smallDescription": "An app to assist them when playing a game called Caps",
+      "context": "With another student of my class, when playing a game of Caps, a game played with beer bottle capsules, we felt like we could make the game easier to play with an app. With it, you can count the points of a game, create tournaments and see your ranking and stats.",
       "date": "January 2021 - March 2021",
       "company": "BDE of IMT Atlantique",
       "team": "Pierre Schmutz",
@@ -123,8 +123,8 @@
       "web": "https://www.dataneo.fr/",
       "process": [
         "First, with Alexandre and the team at Dataneo, we used Excel to create a schedule.",
-        "Firstly, as their datamodel was not completely finished, we decided to create all screens with fake data we created ourselves.",
-        "And in a last part, our role was to connect our frontend to the API."
+        "As their datamodel was not completely finished, we decided to create all screens with fake data we created ourselves.",
+        "And in a last part, when the datamodel was complete, our role was to connect our frontend to the API."
       ]
     },
     "mangakan": {
@@ -132,13 +132,13 @@
       "folderName": "mangakan",
       "description": "With a friend, I am designing and developing an app whose goal is to help manga and manhwas readers keep tabs of what they are reading and at which chapter they are at.",
       "smallDescription": "An app for manga and manhwas readers to keep tabs of what they are reading and at which chapter they are at",
-      "context": "During one of COVID lockdown I discussed with Chloe, a friend of mine, and we came to the conclusion that it was a drag to keep tabs of the mangas and manwhas we were reading. After seeing there were not a satisfying solution on the stores, we decided to make our own.",
+      "context": "During one of COVID lockdown I talked with Chloe, a friend of mine, and we came to the conclusion that it was a drag to keep tabs of the mangas and manwhas we were reading. After seeing there were not a satisfying solution on the stores, we decided to make our own.",
       "date": "April 2021 - now",
       "team": "Chloé Oulabsir",
       "process": [
         "The first thing we did was to meet one afternoon and list every ideas that came to our mind. With that in mind, we created a notion workspace and started organizing our ideas. Simultaneously, we started to ask our friends about their needs and ideas concerning the app.",
         "Then we decided I was in charge of design, she of the database and that we would both work on the development of the app.",
-        "I chose to use Figma to build my design, because it is the software I am the most used to and that I love the most.",
+        "I chose to use Figma to build my design, and I asked Valentine, a designer who is also a good friend, to give me some advices about design and communication strategies on social media.",
         "Then, we started to code. At this day, the app is still in development and we are really proud of how great this project is turning."
       ]
     },
@@ -156,7 +156,7 @@
         "Firsly, Mia and I had a meeting with the TGEU team : they explained to us what they wanted, what were our data and how much time we had.",
         "Then, Mia focused on the design part. When she was done, I started to code. I used Preact, a lighter version of React, because they wanted their website light and respectful of the environment.",
         "My main focus was on SVGs, I learnt how to custom them, but also how to create a pinch and a zoom effect without plugins.",
-        "I also add to create dynamic PDF files and images. In order to do that, I built canvas with SVG that I could export in both formats.",
+        "I also add to create dynamic downloadable PDF files and images. In order to do that, I built manually canvas with SVG that I could export in both formats.",
         "This project was really great because I was directly in contact with the TGEU people that were really nice, because I learnt a lot but also because I am proud that I managed to build alone this website on such short notice (7 weeks)."
       ]
     },

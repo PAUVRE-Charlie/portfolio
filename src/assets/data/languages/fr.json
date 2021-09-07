@@ -66,96 +66,93 @@
     "arc": {
       "name": "Atlantic Robotic Club",
       "folderName": "arc",
-      "description": "",
-      "smallDescription": "",
-      "context": "",
+      "description": "J'ai développé un site internet en React pour présenter le robot que mon école est en train de construire en ce moment pour participer à La \"Coupe de France de robotique\".",
+      "smallDescription": "Site internet pour la Coupe de France de robotique",
+      "context": "J'ai étudié 3 ans à IMT Atlantique, une école d'ingénieur française basé à Nantes, Brest et Rennes. Avec des amis, nous avons redonné vie au club robotique de l'école et nous avons décidé de participer à la \"Coupe de France de robotique\". Ma tâche principale a été de construire ce site: son but est de présenter aux étudiants des années futures comment nous avons construit notre robot, quelles étaient nos directives et décisions, pour qu'ils puissent prendre notre place à la fin de l'année.",
       "date": "Septembre 2020 - Janvier 2021",
       "company": "IMT Atlantique",
-      "team": [],
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "J'ai commencé par rassembler des article et des données sur la compétition et le robot, notamment en parlant avec le reste des membres de l'équipe.",
+        "Ensuite, j'ai exploré le site de mon école et ses réseaux sociaux afin de déterminer quel était le design system qui correspondrait le mieux à ce projet.",
+        "J'ai réalisé mes designs à l'aide de Figma, et après que mon équipe et moi étions satisfaits, j'ai commencé à planifier la partie code. J'ai développé le site en suivant un calendrier précis, et en utilisant React avec TypeScript et Sass."
       ]
     },
     "barbart": {
       "name": "Barb'Art",
       "folderName": "barbart",
-      "description": "",
-      "smallDescription": "",
-      "context": "",
+      "description": "J'ai utilisé Flutter pour développer une application servant à centraliser toute les informations nécessaires à la vie sur notre campus, en facilitant notamment l'inscription aux clubs d'arts et de sports.",
+      "smallDescription": "Une application en Flutter pour le BDE de mon école",
+      "context": "Durant mon Master 1, avec un bon ami à moi, j'ai décidé de lancer un nouveau projet. Dans notre école, il y a de nombreuses sources d'informations et les étudiants se plaignaient souvent qu'il était difficile de rester au courant de tout ce qu'il se passait. Nous avons donc décidé de créer une application qui leur rendrait la vie plus facile. Son objectif principal est donc de rassembler les annonces principales faites par les bureaux de l'école, mais aussi de leur permettre de s'inscrire dans des clubs de sports ou d'art, et de réserver la salle musique de l'école.",
       "date": "Juillet 2020 - Décembre 2020",
       "company": "BDE d'IMT Atlantique",
-      "team": ["Thomas Rossi"],
+      "team": "Thomas Rossi",
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "Nos premières semaines ont été consacrées à construire l'architecture et lister les fonctionnalités du projet. Nous avons discuté à de nombreuses reprises avec d'autres étudiants afin de vraiment comprendre de quoi ils avaient réellement besoin, et ensuite j'ai réalisé les designs sur Figma.",
+        "Nous avons divisé le travail en deux : il était en charge du backend et moi du frontend. J'ai utilisé Flutter car je ne souhaitais pas coder deux fois l'application, une fois pour les appareils Android et une pour IOS.",
+        "Nous avons travaillé ensemble pendant quelques mois, parfois à distance, et nous avons réussi à créer une version presque finale du projet.",
+        "Ensuite, comme nous n'avions pas assez de temps pour continuer le projet, nous nous sommes vus forcé de passer le flambeau à des étudiants plus jeunes de notre école, qui ont repris le projet quelques mois plus tard."
       ]
     },
     "caps": {
       "name": "Caps",
       "folderName": "caps",
-      "description": "",
-      "smallDescription": "",
-      "context": "",
+      "description": "Avec un ami, j'ai fait un design sur Figma et développé l'application en utilisant Flutter. Cette application cible les étudiants et son but est de les aider lorsqu'ils jouent à un jeu appelé \"Caps\"., qui se joue avec des capsules de bières.",
+      "smallDescription": "Une application pour assiter les joueurs de Caps",
+      "context": "Avec un autre étudiant de mon école, pendant que nous jouions au Caps, nous avons senti que nous pouvions rendre le jeu plus facile et confortable à jouer si on développait une application dans ce but. Avec, on peut compter les points d'une partie, créer des tournois et consulter son classement et ses statistiques.",
       "date": "Janvier 2021 - Mars 2021",
       "company": "BDE d'IMT Atlantique",
-      "team": ["Pierre Schmutz"],
+      "team": "Pierre Schmutz",
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "La première chose que nous avons faite a été de lister les foncionnalités que nous voulions dans l'application. Ensuite, nous avons commencé par élaborer l'architecture et le design de l'application, que j'ai fait sous Figma.",
+        "Nous avons développé cette application à l'aide de Flutter et de Firebase. J'étais en charge de la base de donnée et de la lier au frontend, mais j'ai également aider quant au développement des écrans de l'application.",
+        "Quand nous avons fini de la développer, nous avons commencé à travailler sur le déploiement de l'application sur le Playstore et l'Appstore. L'application était disponible sur le Playstore pendant 4 mois, avant qu'ils ne décident de stopper sa publication, car elle était selon eux trop liée à la consommation d'alcool. Nous sommes toujours en négociations avec eux afin qu'ils nous laissent la republier."
       ]
     },
     "dataneo": {
       "name": "Dataneo",
       "folderName": "dataneo",
-      "description": "",
-      "smallDescription": "",
-      "context": "",
+      "description": "Ce site est utilisé pour donner de la valeur aux données autour des voitures et de leurs propriétaires.",
+      "smallDescription": "Un site internet dont le but est de donner de la valeur aux données autour des voitures et de leurs propriétaires.",
+      "context": "J'ai travaillé sur ce projet durant mon stage à Wolfox, aux côtés d'Alexandre, mon tuteur. Notre rôle était de développer le site internet en suivant les design fait par les designers sous Figma.",
       "date": "Mars 2021",
       "company": "Wolfox",
-      "team": ["Alexandre Brajeux", "Eva Vermot"],
+      "team": "Alexandre Brajeux et Eva Vermot",
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "D'abord avec Alexandre et l'équipe de Dataneo, nous avons utilisé Excel pour créer un calendrier.",
+        "Comme leur modèle de données n'était pa complétement fini, nous avons décidé de créer tous les écrans en premier avec des fausses données que nous avons créé nous-mêmes.",
+        "En dernier, une fois que le modèle de données était fini, nous avons du connecter le frontend à l'API."
       ]
     },
     "mangakan": {
       "name": "Mangakan",
       "folderName": "mangakan",
-      "description": "Avec une amie, je design et développe une application dont le but est d'aider les lecteurs de mangas et manhwas à suivre leurs avancements dans leur lecture. Nous utilisons Figma pour le design, et Reactjs et MongoDB pour le code.",
+      "description": "Avec une amie, je design et développe une application dont le but est d'aider les lecteurs de mangas et manhwas à suivre leur avancement dans leurs lectures. Nous utilisons Figma pour le design, et Reactjs et MongoDB pour le code.",
       "smallDescription": "Une application dont le but est d'aider les lecteurs de mangas et manhwas à suivre leurs avancements dans leur lecture",
-      "context": "",
+      "context": "Pendant un des confinement lié au COVID, j'ai discuté avec Chloé, une amie à moi, et nous sommes arrivés à la conclusion qu'il était très compliqué de suivre l'avancement des lectures de mangas et manwhas. Après avoir constasté qu'il n'existait actuellement pas de solution satisfaisante, nous avons décidé d'en créer une nous-mêmes.",
       "date": "Avril 2021 - auj",
-      "team": ["Chloé Oulabsir"],
+      "team": "Chloé Oulabsir et Valentine Michel",
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "La première chose que nous avons faite a été de se rencontrer un après-midi et de lister l'ensemble de nos idées. Nous avons par la suite créer un espace Notion et avons commencé à y organiser nos idées. Parallèlement, nous avons décidé de demander à nos amis lecteurs quels étaient leurs besoins et idées concernant l'application.",
+        "Ensuite, nous avons décidé que je serais en charge du design et elle de la base de données, et que nous participerons tous les deux au développement de l'application.",
+        "J'ai choisi d'utiliser Figma pour construire mon design et j'ai demandé à Valentine, une designer qui est aussi une très bonne amie à moi, de me donner des conseils à propos du design et des stratégies de communication sur les réseaux sociaux.",
+        "Ensuite, nous avons commencé à coder. Aujourd'hui, l'application est toujours en développement et nous sommes très fier de ce que le projet est en train de devenir."
       ]
     },
     "tgeu": {
       "name": "Trans Rights Map",
       "folderName": "tgeu",
       "description": "J'ai travaillé avec une designer pendant 1.5 mois pour construire une version interactive de la carte de répartition des droits des trans, en anglais et russe, à l'occasion du jour international contre l'homophobie, la biphobie et la transphobie.",
-      "smallDescription": "",
+      "smallDescription": "Une version interactive de la carte des droits des personnes trans, en anglais et russe",
       "context": "A l'occasion du jour international contre l'homophobie, la biphobie et la transphobie, TGEU (Trans Gender Europe) voulait construire un site internet qui représente la répartition des droits des personnes trans en Europe et en Asie Centrale. Ils voulaient que cette répartition soit représentée sur des cartes et ils nous fournissaient les donées sous forme de tableaux Excel.",
       "date": "Avril - Mai 2021",
       "company": "Wolfox",
-      "team": ["Mia Chávez Ruz"],
+      "team": "Mia Chávez Ruz",
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "Dans un premier temps, Mia et moi avons eu un meeting avec l'équipe de TGEU : ils nous ont expliqué ce qu'ils souhaitaient, quelles seraient les données avec lesquelles nous allions travaillé et combien de temps nous avions.",
+        "Ensuite, Mia s'est concentrée sur le design et quand elle a fini, je me suis occupé du codage. J'ai utilisé Preact, une version plus légère de React, car il souhaitaient avoir un site plus léger et respectueux de l'environnement.",
+        "Mon focus principal a été les SVGs, j'ai appris comment les customiser, mais aussi comment créer un effet \"Pinch and Zoom\", sans plugins.",
+        "J'ai également du créer des PDF et des images dynamiques téléchargeables. Pour ce faire, j'ai conçu à la main des canvas avec des SVGs que j'ai pu exportez dans les deux formats.",
+        "Ce projet était vraiment génial car j'étais directement en contact avec une superbe équipe et parce que j'ai énormément appris, et je suis très fier d'avoir pu développer ce site tout seul, en si peu de temps (7 semaines)."
       ]
     },
     "ublo": {
@@ -163,15 +160,15 @@
       "folderName": "ublo",
       "description": "J'ai travaillé avec des designer et d'autres développeurs pour construire une solution de gestion immobilière pour les bailleurs publics, en utilisant React avec une api REST. J'étais aussi en charge de créer les containers Docker et de les déployer sur AWS.",
       "smallDescription": "Une solution de gestion immobilière pour bailleurs publics",
-      "context": "",
+      "context": "De nos jours, un des derniers secteurs utilisant encore plus de papier que de fichiers numériques est l'immobilier. C'est pourquoi l'équipe d'Ublo a décidé de créer cette solution. Elle se concentre principalement sur la réduction des coûts pour le manager et sur l'amélioration de l'expérience des résidents.",
       "date": "Juin & Juillet 2021",
       "company": "Ublo",
-      "team": ["Équipe dev d'Ublo"],
+      "team": "Équipe dev d'Ublo",
       "process": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo elementum at id rhoncus turpis mi eget. Sit feugiat at viverra netus et nam ornare. Massa tincidunt tortor arcu egestas blandit sit pharetra, rhoncus. Sed amet arcu in volutpat sit nunc nisl, semper."
+        "Dans un premier temps, j'ai aidé l'équipe de développement en créant de nombreux composants et écrans, en utilisant React, Tailwind et Material UI.",
+        "Ensuite, ils m'ont mis en charge du dashboard statistiques. J'ai du d'abord créer le design sur Figma, en faisant bien attention de respecter le design system déjà en place.",
+        "Quand mon design a été validé par l'équipe, j'ai commencé à l'implémenter, en premier avec des fausses données. Ensuite, j'ai créé les requêtes nécessaires dans le backend et je les ai lié au frontend.",
+        "Dès que j'ai fini cette mission, on m'en a donné une nouvelle : celle de conteneuriser le backend en utilisant Docker. J'ai utilisé un fichier docker-compose pour lier ce backend à la base de données MongoDB. Et enfin, ma dernière mission a été de déployer ce conteneur Docker sur AWS en utilisant le module ECS."
       ]
     }
   }
