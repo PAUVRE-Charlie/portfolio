@@ -1,14 +1,47 @@
-import { h } from 'preact'
-import style from './style.css'
-import { logo } from '../../assets/icons'
-import { Text } from '../language'
+import { h } from "preact";
+import { useEffect, useState } from "react";
+import style from "./style.css";
 
-export default ({boost, position: {top, bottom, right, left} = {top: `${Math.random()*(boost ? 120 : 100)}%`, left: `${Math.random()*(boost ? 120 : 100)}%`}}) => {
+export default ({ boost, reload = false, position }) => {
+  const rotation = Math.random() * 360;
+  const size = Math.random() * 7 + 6;
 
-    const rotation = Math.random() * 360
-    const size = Math.random() * 7 + 6
+  const [state, setState] = useState({
+    position: position ?? {
+      top: `${Math.random() * (boost ? 120 : 100)}%`,
+      left: `${Math.random() * (boost ? 120 : 100)}%`,
+    },
+    color: ["#A57E59", "#DBB85F", "#91B5C8"][Math.floor(Math.random() * 3) % 3],
+  });
 
-    const color = ['#A57E59', '#DBB85F', '#91B5C8'][Math.floor(Math.random()*3)%3]
+  useEffect(() => {
+    if (reload) {
+      setState({
+        position: {
+          top: `${Math.random() * (boost ? 120 : 100)}%`,
+          left: `${Math.random() * (boost ? 120 : 100)}%`,
+        },
+        color: ["#A57E59", "#DBB85F", "#91B5C8"][
+          Math.floor(Math.random() * 3) % 3
+        ],
+      });
+    }
+  }, [reload]);
 
-    return <div className={style.rect} style={{width: size, height: size, borderRadius: size/6, backgroundColor: color, transform: `rotate(${rotation}deg)`, top, bottom, right, left}} />
-}
+  return (
+    <div
+      className={style.rect}
+      style={{
+        width: size,
+        height: size,
+        borderRadius: size / 6,
+        backgroundColor: state.color,
+        transform: `rotate(${rotation}deg)`,
+        top: state.position.top,
+        bottom: state.position.bottom,
+        right: state.position.right,
+        left: state.position.left,
+      }}
+    />
+  );
+};

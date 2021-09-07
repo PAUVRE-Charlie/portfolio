@@ -17,9 +17,9 @@ export default ({project}) => {
     return <div className={style.projectPreview}>
         <div className={style.preview}>
             <img className={style.shape} src={shape1} alt='shape' />
-            <SmallRect />
-            <SmallRect />
-            <SmallRect />
+            <SmallRect reload={hover} />
+            <SmallRect reload={hover} />
+            <SmallRect reload={hover} />
             <a className={style.image} href={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><img className={style.image} src={`../../assets/images/${project}/preview.png`} alt='preview' /></a>
         </div>
         <div className={style.info}>
