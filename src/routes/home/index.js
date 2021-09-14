@@ -1,5 +1,5 @@
 import { h } from 'preact'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import { Element } from 'react-scroll'
 import style from './style.css'
 
@@ -13,13 +13,15 @@ import SmallRect from '../../components/smallRect'
 
 import * as images from '../../assets/images'
 import {github_dark, linkedin} from '../../assets/icons'
-import {resume_english} from '../../assets/files'
+import {resume_en, resume_fr} from '../../assets/files'
 import { Text } from '../../components/language'
+import { LanguageContext } from '../../components/language';
 
-const Home = ({scroll}) => {
+export default _ => {
 
   const [expanded, setExpanded] = useState(false)
   const [showAllProjects, setShowAllProject] = useState(false)
+  const { userLanguage } = useContext(LanguageContext);
 
   const handleMoreProject = () => {
     setExpanded(true)
@@ -52,7 +54,7 @@ const Home = ({scroll}) => {
             <p><Text id='home.intro2' /></p>
           </div>
           <div className={style.footerHero}>
-            <a href={resume_english} rel="noreferrer" target="_blank" download="resume_Charlie_Pauvre"><button><Text id='home.downloadResume' /></button></a>
+            <a href={userLanguage === 'en' ? resume_en : resume_fr} rel="noreferrer" target="_blank" download="resume_Charlie_Pauvre"><button><Text id='home.downloadResume' /></button></a>
             <div className={style.socialMedia}>
               <a href='https://www.linkedin.com/in/charlie-pauvre/' rel="noreferrer" target="_blank"><img src={linkedin} alt='linkedin' /></a>
               <a href='https://github.com/PAUVRE-Charlie/' rel="noreferrer" target="_blank"><img src={github_dark} alt='github' /></a>
@@ -105,5 +107,3 @@ const Home = ({scroll}) => {
     <Signature />
   </div>
 }
-
-export default Home

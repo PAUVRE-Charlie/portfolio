@@ -1,5 +1,5 @@
 import { h } from 'preact'
-import { Element } from 'react-scroll'
+import { Element, Link as LinkScroll } from 'react-scroll'
 import { Link } from 'react-router-dom'
 import style from './style.css'
 
@@ -15,7 +15,7 @@ export default ({tabs}) => {
         <div>
             {
                 tabs && tabs.length && tabs.map(tab => (
-                    <Link to={tab}><p><Text id={`header.${tab}`} /></p></Link>
+                    <LinkScroll to={tab}><p><Text id={`header.${tab}`} /></p></LinkScroll>
                 ))
             }
             <LanguageSelector />

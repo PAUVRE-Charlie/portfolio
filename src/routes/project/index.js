@@ -16,7 +16,6 @@ import en from '../../assets/data/languages/en.json'
 import * as images from '../../assets/images'
 import { Text } from '../../components/language'
 
-
 export default ({project}) => {
 
   const { app1, app2, web1, web2, web3, web4, web5 } =  images[project]
