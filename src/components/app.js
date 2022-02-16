@@ -1,27 +1,23 @@
-import { h } from 'preact'
-import { useState } from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { h } from "preact";
+import { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Code-splitting is automated for `routes` directory
-import Home from '../routes/home'
-import Project from '../routes/project'
-import { LanguageProvider } from './language'
+import Home from "../routes/home";
+import Project from "../routes/project";
+import { LanguageProvider } from "./language";
 
-import GoTopButton from './goTopButton'
-import ScrollToTop from './scrollToTop';
+import GoTopButton from "./goTopButton";
+import ScrollToTop from "./scrollToTop";
 
 const App = () => {
-
   const getScroll = () => {
-    if(typeof window !== "undefined") return window?.pageYOffset
-    else if(typeof document !== "undefined") return document?.documentElement?.scrollTop
-    return 0
-  }
-  const [scroll, setScroll] = useState(getScroll())
+    if (typeof window !== "undefined") return window?.pageYOffset;
+    else if (typeof document !== "undefined")
+      return document?.documentElement?.scrollTop;
+    return 0;
+  };
+  const [scroll, setScroll] = useState(getScroll());
 
   return (
     <div
@@ -43,9 +39,7 @@ const App = () => {
               </Route>
               <Route
                 path="/project/:project"
-                children={({ match }) => (
-                  <Project scroll={scroll} project={match.params.project} />
-                )}
+                children={() => <Project scroll={scroll} />}
               />
             </Switch>
           </ScrollToTop>
@@ -54,6 +48,6 @@ const App = () => {
       <GoTopButton scroll={scroll} />
     </div>
   );
-}
+};
 
-export default App
+export default App;
