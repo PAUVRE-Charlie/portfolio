@@ -32,7 +32,7 @@
 }
 
 .project .intro h1 {
-   margin-bottom: 31px;
+   margin-bottom: 11px;
 }
 
 /* PROJECT DETAILS */
@@ -114,7 +114,7 @@
 		margin-left: 80px;
 	}
 
-	.project .intro > div > div {
+	.project .intro > .info > .web {
 		margin-top: 50px;
 		display: flex;
 		justify-content: space-between;
@@ -181,7 +181,7 @@
 		width: 250px;
 	}
 
-	.project .intro > div > div {
+	.project .intro > .info > .web {
 		display: grid;
 		place-items: center;
 		margin-top: 30px;

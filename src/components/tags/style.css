@@ -1,0 +1,21 @@
+.tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tag {
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 10px 10px 0px 0;
+}
+.tag p {
+    color: var(--white);
+}
+
+@media screen and (max-width: 1201px) {
+    .tags {
+        justify-content: center;
+    }
+}

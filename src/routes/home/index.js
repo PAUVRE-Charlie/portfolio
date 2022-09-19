@@ -87,12 +87,15 @@ export default _ => {
           </div>
           <img src={images.deerHappy} alt='deerHappy' />
         </div>
-        <div className={style.projectList} style={{height: expanded ? '2800px' : '1150px'}}>
-          <ProjectPreview project='tgeu' />
+        <div className={style.projectList} style={{height: expanded ? '4000px' : '1150px'}}>
           <ProjectPreview project='mangakan' />
-          <ProjectPreview project='ublo' />
+          <ProjectPreview project='valentine' />
+          <ProjectPreview project='tgeu' />
           {
             showAllProjects && <>
+              <ProjectPreview project='iki' />
+              <ProjectPreview project='margarita' />
+              <ProjectPreview project='ublo' />
               <ProjectPreview project='dataneo' />
               <ProjectPreview project='barbart' />
               <ProjectPreview project='caps' />

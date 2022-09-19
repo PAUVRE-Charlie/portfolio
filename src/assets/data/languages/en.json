@@ -73,6 +73,8 @@
       "company": "IMT Atlantique",
       "web": "https://atlantic-robotic-club.netlify.app/",
       "github": "https://github.com/PAUVRE-Charlie/atlantic-robotic-club",
+      "type": "Website",
+      "tags": ["React"],
       "process": [
         "I started by gathering the articles and some data about the competition and the robot itself by talking with the team.",
         "Then, I explored the school website and social media to find the design system that would best fit the project. It appeared their main colors were light blue and gold.",
@@ -87,8 +89,10 @@
       "context": "During my Msc 1, with a good friend of mine, I decided to take on a new project. In our school, there are many different sources of information and people were often complaining about it. So we decided to create an app that would make every students' life easier. Its main goal is to gather the main announcements of the Student Union, but it was also to let people enroll in sports and art clubs and book the music room.",
       "date": "July 2020 - December 2020",
       "company": "BDE of IMT Atlantique",
-      "team": "Thomas Rossi",
+      "team": [{"name": "Thomas Rossi", "link": "https://www.linkedin.com/in/thomas-rossi-fr/"}],
       "github": "https://github.com/ThomRI/BarbArt",
+      "type": "App",
+      "tags": ["Flutter", "Express", "MySQL"],
       "process": [
         "Our first weeks were about conceiving the project. We talked a lot with others students to understand what they really needed and wanted and then we designed the app on Figma.",
         "We divided the work in two : he was in charge of the backend and me the frontend. I used Flutter because I did not wanted to have to code 2 times the app, for android and IOS.",
@@ -104,7 +108,9 @@
       "context": "With another student of my class, when playing a game of Caps, a game played with beer bottle capsules, we felt like we could make the game easier to play with an app. With it, you can count the points of a game, create tournaments and see your ranking and stats.",
       "date": "January 2021 - March 2021",
       "company": "BDE of IMT Atlantique",
-      "team": "Pierre Schmutz",
+      "team": [{"name": "Pierre Schmutz", "link": "https://www.linkedin.com/in/pierre-schmutz/"}],
+      "type": "App",
+      "tags": ["Flutter", "Firestore"],
       "process": [
         "The first thing we did was to list the features we wanted in the app. Then we started to think about the architecture and the design of the app, which we did on Figma.",
         "We developed the app with Flutter and Firebase. I was in charge of handling the Firebase data and to link it to the app, but I also coded some screens.",
@@ -119,12 +125,32 @@
       "context": "I worked on this project during my internship at Wolfox, alongside with Alexandre, my tutor. Our role was to implement the design from Figma files, that the designers at Wolfox created.",
       "date": "March 2021",
       "company": "Wolfox",
-      "team": "Alexandre Brajeux et Eva Vermot",
+      "team": [{"name": "Alexandre Brajeux", "link": "https://www.linkedin.com/in/alexandre-brajeux/"}, {"name": "Eva Vermot", "link": "https://www.linkedin.com/in/eva-vermot-desroches-79b888154/"}],
       "web": "https://www.dataneo.fr/",
+      "type": "Website",
+      "tags": ["React", "Nodejs", "PostgreSQL"],
       "process": [
         "First, with Alexandre and the team at Dataneo, we used Excel to create a schedule.",
         "As their datamodel was not completely finished, we decided to create all screens with fake data we created ourselves.",
         "And in a last part, when the datamodel was complete, our role was to connect our frontend to the API."
+      ]
+    },
+    "iki": {
+      "name": "Iki",
+      "folderName": "iki",
+      "description": "I designed and developed a website for Iki, a restaurant in Ixelles (Belgium) that offer healthy and refined Eurasian cuisine.",
+      "smallDescription": "The presentation, menu and order information of Iki, a restaurant based in Ixelles, Belgium.",
+      "context": "Alongside my internship at Pricing Pact in Brussels, I met Tan Le, the owner of the restaurant and after some discussions, he asked me if I could update his website.",
+      "date": "January 2022 - February 2022",
+      "web": "https://iki-brussels.be/",
+      "type": "Website",
+      "tags": ["Gastby"],
+      "process": [
+        "The first thing we did was to meet one afternoon so he could tell me what he wanted, and send me all the necessary documents/images I needed.",
+        "Then after looking up his previous website (https://ikisalads.be/en), I started designing the new website using Figma, and after a few meetings, we aggreed on the final mockups.",
+        "After that I used Gastby to build the website. I had to link the website to some third-party apps like Typeform and Excel, so he could receive orders.",
+        "As he wanted a website that did not impact badly the environment, I did some optimizations and connected the website to the website carbon evaluation engine (the result can be seen in the footer of the website)",
+        "Finally, I uploaded the website on an OVH cloud solution."
       ]
     },
     "mangakan": {
@@ -134,12 +160,32 @@
       "smallDescription": "An app for manga and manhwas readers to keep tabs of what they are reading and at which chapter they are at",
       "context": "During one of COVID lockdown I talked with Chloe, a friend of mine, and we came to the conclusion that it was a drag to keep tabs of the mangas and manwhas we were reading. After seeing there were not a satisfying solution on the stores, we decided to make our own.",
       "date": "April 2021 - now",
-      "team": "Chloé Oulabsir",
+      "team": [{"name": "Chloé Oulabsir--Simonin", "link": "https://www.linkedin.com/in/chloe-oulabsir-simonin/"}, {"name": "Valentine Michel", "link": "https://www.linkedin.com/in/valentine-michel-ux-ui-designer-%C3%A9coconception/"}],
+      "web": "https://mangakan.fr",
+      "type": "Website & app",
+      "tags": ["React native", "Graphql", "MongoDB"],
       "process": [
         "The first thing we did was to meet one afternoon and list every ideas that came to our mind. With that in mind, we created a notion workspace and started organizing our ideas. Simultaneously, we started to ask our friends about their needs and ideas concerning the app.",
         "Then we decided I was in charge of design, she of the database and that we would both work on the development of the app.",
-        "I chose to use Figma to build my design, and I asked Valentine, a designer who is also a good friend, to give me some advices about design and communication strategies on social media.",
-        "Then, we started to code. At this day, the app is still in development and we are really proud of how great this project is turning."
+        "I chose to use Figma to build my design, and I asked Valentine, a designer who is also a good friend, to help me with the design.",
+        "I first started to code the landing page for which I used Gatsby, to have a very low environmental impact.",
+        "Then, I started working on the application. I use React native, Mercurius, Graphql and MongoDB to implement the app. At this day, the app is soon to be published on the PlayStore and when everything will be working, I will start the publication on the AppStore."
+      ]
+    },
+    "margarita": {
+      "name": "Wedding website",
+      "folderName": "margarita",
+      "description": "The purpose of this website is to announce and host all the necessary information related to the future wedding of Bertrand & Margarita.",
+      "smallDescription": "A website to announce and host all the necessary information related to a future wedding",
+      "context": "While I was talking with Bertrand, I realized he was struggling with finding a good no-code solution to build the website for his wedding. It was especially due to the fact that he wanted interactivity and different languages available. When he explained it to me I offered him to build the website he wanted.",
+      "date": "July 2022",
+      "web": "https://www.margarita-et-bertrand.fr/",
+      "type": "Website",
+      "tags": ["Gastby"],
+      "process": [
+        "We first organized video calls so he and his fiance could describe what they wanted on their website.",
+        "Then I started designing the website on Figma, and after some changes due to their feedbacks, we aggreed on the final mockups.",
+        "After that, I started coding the website using Gastby and when they had checked everything was working the way they wanted, I uploaded the website on Netlify."
       ]
     },
     "tgeu": {
@@ -150,8 +196,10 @@
       "context": "On the occasion of the International Day Against Homophobia, Biphobia, and Transphobia, TGEU (Trans Gender Europe) wanted to build a website that would represent the repartition of rights for transgender people in Europe & Central Asia. They wanted it as maps and the data they give us was in excel sheets format.",
       "date": "April - May 2021",
       "company": "Wolfox",
-      "team": "Mia Chávez Ruz",
+      "team": [{"name": "Mía Chávez Ruz", "link": "https://www.linkedin.com/in/miachavezruz/"}],
       "web": "https://transrightsmap.tgeu.org/",
+      "type": "Website",
+      "tags": ["Preact", "SVG"],
       "process": [
         "Firsly, Mia and I had a meeting with the TGEU team : they explained to us what they wanted, what were our data and how much time we had.",
         "Then, Mia focused on the design part. When she was done, I started to code. I used Preact, a lighter version of React, because they wanted their website light and respectful of the environment.",
@@ -168,13 +216,29 @@
       "context": "Nowadays, one of the last field still using more paper than digital files is real estate. That is why the ublo team decided to create this solution. It focuses on reducing costs for managers and improve the residants' experience.",
       "date": "June & July 2021",
       "company": "Ublo",
-      "team": "Dev team of Ublo",
       "web": "https://www.ublo.immo/",
+      "type": "Website",
+      "tags": ["React", "Nodejs", "Docker", "MongoDB"],
       "process": [
         "First, I helped the team building many many components and screens, using React, Tailwind and Material UI.",
         "Then, they put me in charge of the statistics dashboard. Firstly I had to design it on Figma, I had to be careful because I had to follow the exising design system.",
         "When my design had been validated by the team, I started implementing it, first with fake data. Then I created the necessary requests in the backend and I linked it to the frontend.",
         "As soon as I was done with this mission, they put me in charge of containerizing the backend using Docker. I used a docker-compose file to link the backend with the MongoDB database. Finally, my last job was to deploy this container on AWS using the ECS module."
+      ]
+    },
+    "valentine": {
+      "name": "Valentine's blog",
+      "folderName": "valentine",
+      "description": "This website act as a blog for Valentine, a UX-UI designer who is working in Paris. It has a very low environemental impact and introduce her work and methods.",
+      "smallDescription": "This website act as a blog for Valentine, a UX-UI designer who is working in Paris.",
+      "context": "As Valentine wanted to start as a designer freelancer, she decided it was a good idea to create a blog where she could add articles about her ideas and methods.",
+      "date": "June 2022",
+      "web": "https://valentine.eco/",
+      "type": "Blog",
+      "tags": ["Gastby", "Strapi"],
+      "process": [
+        "First, we talked about what she wanted and how she wanted it. She showed me her design and insisted on the importance of having a website with a very low environmental impact.",
+        "I decided to use the combination of Gatsby and Strapi. Why? Because Gastby is very light and efficient, and Strapi because it is a really easy to implement blog backend and it works well with Gastby."
       ]
     }
   }

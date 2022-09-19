@@ -71,6 +71,8 @@
       "context": "J'ai étudié 3 ans à IMT Atlantique, une école d'ingénieur française basé à Nantes, Brest et Rennes. Avec des amis, nous avons redonné vie au club robotique de l'école et nous avons décidé de participer à la \"Coupe de France de robotique\". Ma tâche principale a été de construire ce site: son but est de présenter aux étudiants des années futures comment nous avons construit notre robot, quelles étaient nos directives et décisions, pour qu'ils puissent prendre notre place à la fin de l'année.",
       "date": "Septembre 2020 - Janvier 2021",
       "company": "IMT Atlantique",
+      "type": "Website",
+      "tags": ["React"],
       "process": [
         "J'ai commencé par rassembler des article et des données sur la compétition et le robot, notamment en parlant avec le reste des membres de l'équipe.",
         "Ensuite, j'ai exploré le site de mon école et ses réseaux sociaux afin de déterminer quel était le design system qui correspondrait le mieux à ce projet.",
@@ -85,7 +87,9 @@
       "context": "Durant mon Master 1, avec un bon ami à moi, j'ai décidé de lancer un nouveau projet. Dans notre école, il y a de nombreuses sources d'informations et les étudiants se plaignaient souvent qu'il était difficile de rester au courant de tout ce qu'il se passait. Nous avons donc décidé de créer une application qui leur rendrait la vie plus facile. Son objectif principal est donc de rassembler les annonces principales faites par les bureaux de l'école, mais aussi de leur permettre de s'inscrire dans des clubs de sports ou d'art, et de réserver la salle musique de l'école.",
       "date": "Juillet 2020 - Décembre 2020",
       "company": "BDE d'IMT Atlantique",
-      "team": "Thomas Rossi",
+      "team": [{"name": "Thomas Rossi", "link": "https://www.linkedin.com/in/thomas-rossi-fr/"}],
+      "type": "App",
+      "tags": ["Flutter", "Express", "MySQL"],
       "process": [
         "Nos premières semaines ont été consacrées à construire l'architecture et lister les fonctionnalités du projet. Nous avons discuté à de nombreuses reprises avec d'autres étudiants afin de vraiment comprendre de quoi ils avaient réellement besoin, et ensuite j'ai réalisé les designs sur Figma.",
         "Nous avons divisé le travail en deux : il était en charge du backend et moi du frontend. J'ai utilisé Flutter car je ne souhaitais pas coder deux fois l'application, une fois pour les appareils Android et une pour IOS.",
@@ -101,7 +105,9 @@
       "context": "Avec un autre étudiant de mon école, pendant que nous jouions au Caps, nous avons senti que nous pouvions rendre le jeu plus facile et confortable à jouer si on développait une application dans ce but. Avec, on peut compter les points d'une partie, créer des tournois et consulter son classement et ses statistiques.",
       "date": "Janvier 2021 - Mars 2021",
       "company": "BDE d'IMT Atlantique",
-      "team": "Pierre Schmutz",
+      "team": [{"name": "Pierre Schmutz", "link": "https://www.linkedin.com/in/pierre-schmutz/"}],
+      "type": "App",
+      "tags": ["Flutter", "Firestore"],
       "process": [
         "La première chose que nous avons faite a été de lister les foncionnalités que nous voulions dans l'application. Ensuite, nous avons commencé par élaborer l'architecture et le design de l'application, que j'ai fait sous Figma.",
         "Nous avons développé cette application à l'aide de Flutter et de Firebase. J'étais en charge de la base de donnée et de la lier au frontend, mais j'ai également aider quant au développement des écrans de l'application.",
@@ -116,11 +122,31 @@
       "context": "J'ai travaillé sur ce projet durant mon stage à Wolfox, aux côtés d'Alexandre, mon tuteur. Notre rôle était de développer le site internet en suivant les design fait par les designers sous Figma.",
       "date": "Mars 2021",
       "company": "Wolfox",
-      "team": "Alexandre Brajeux et Eva Vermot",
+      "team": [{"name": "Alexandre Brajeux", "link": "https://www.linkedin.com/in/alexandre-brajeux/"}, {"name": "Eva Vermot", "link": "https://www.linkedin.com/in/eva-vermot-desroches-79b888154/"}],
+      "type": "Website",
+      "tags": ["React", "Nodejs", "PostgreSQL"],
       "process": [
         "D'abord avec Alexandre et l'équipe de Dataneo, nous avons utilisé Excel pour créer un calendrier.",
         "Comme leur modèle de données n'était pa complétement fini, nous avons décidé de créer tous les écrans en premier avec des fausses données que nous avons créé nous-mêmes.",
         "En dernier, une fois que le modèle de données était fini, nous avons du connecter le frontend à l'API."
+      ]
+    },
+    "iki": {
+      "name": "Iki",
+      "folderName": "iki",
+      "description": "J'ai effectué le design et développé le site internet d'Iki, un restaurant à Ixelles (Belgique) qui propose une cuisine eurasienne saine et raffinée.",
+      "smallDescription": "Le site vitrine d'Iki, un restaurant basé à Ixelles, en Belgique.",
+      "context": "Durant les 6 mois que j'ai passé à Bruxelles, j'ai rencontré Tan Le, le gérant du restaurant, et après quelques discussions, il m'a demandé de lui refaire son site internet.",
+      "date": "Janvier 2022 - Février 2022",
+      "web": "https://iki-brussels.be/",
+      "type": "Website",
+      "tags": ["Gastby"],
+      "process": [
+        "La première chose que nous avons fait a été d'organiser une rencontre pour qu'il puisse me détailler exactement ce qu'il voulait.",
+        "Après avoir regardé la version précédente de son site internet (https://ikisalads.be/fr/), j'ai commencé à travaillé sur le design du nouveau site en utilisant Figma, et après quelques réunions, nous nous sommes mis d'accord sur les maquettes finales.",
+        "Ensuite, j'ai utilisé Gatsby pour construire le site internet. J'ai dû relier le site à différentes applications tierces telles que Typeform et Excel, pour qu'il puisse recevoir ses commandes.",
+        "Comme il souhaitait un site avec un faible impact carbone, j'ai fait des optimisations et connecté le site au moteur d'évaluation carbone du site Website Carbon (le résultat est visible dans le pied de page du site)",
+        "Enfin, j'ai mis en ligne à l'aide d'une solution cloud d'OVH."
       ]
     },
     "mangakan": {
@@ -130,12 +156,31 @@
       "smallDescription": "Une application dont le but est d'aider les lecteurs de mangas et manhwas à suivre leurs avancements dans leur lecture",
       "context": "Pendant un des confinement lié au COVID, j'ai discuté avec Chloé, une amie à moi, et nous sommes arrivés à la conclusion qu'il était très compliqué de suivre l'avancement des lectures de mangas et manwhas. Après avoir constasté qu'il n'existait actuellement pas de solution satisfaisante, nous avons décidé d'en créer une nous-mêmes.",
       "date": "Avril 2021 - auj",
-      "team": "Chloé Oulabsir et Valentine Michel",
+      "team": [{"name": "Chloé Oulabsir--Simonin", "link": "https://www.linkedin.com/in/chloe-oulabsir-simonin/"}, {"name": "Valentine Michel", "link": "https://www.linkedin.com/in/valentine-michel-ux-ui-designer-%C3%A9coconception/"}],
+      "type": "Website & app",
+      "tags": ["React native", "Graphql", "MongoDB"],
       "process": [
         "La première chose que nous avons faite a été de se rencontrer un après-midi et de lister l'ensemble de nos idées. Nous avons par la suite créer un espace Notion et avons commencé à y organiser nos idées. Parallèlement, nous avons décidé de demander à nos amis lecteurs quels étaient leurs besoins et idées concernant l'application.",
         "Ensuite, nous avons décidé que je serais en charge du design et elle de la base de données, et que nous participerons tous les deux au développement de l'application.",
-        "J'ai choisi d'utiliser Figma pour construire mon design et j'ai demandé à Valentine, une designer qui est aussi une très bonne amie à moi, de me donner des conseils à propos du design et des stratégies de communication sur les réseaux sociaux.",
-        "Ensuite, nous avons commencé à coder. Aujourd'hui, l'application est toujours en développement et nous sommes très fier de ce que le projet est en train de devenir."
+        "J'ai choisi d'utiliser Figma pour construire mon design et j'ai demandé à Valentine, une designer qui est aussi une très bonne amie à moi, de m'aider avec le design.",
+        "J'ai ensuite commencé à coder la landing page pour laquelle j'ai utilisé Gatsby, pour avoir un impact environnemental très faible.",
+        "Ensuite, j'ai commencé à travailler sur l'application. J'utilise React native, Mercurius, Graphql et MongoDB pour implémenter l'application. A ce jour, l'application doit bientôt être publiée sur le PlayStore et quand tout fonctionnera, je lancerai le publication sur l'AppStore."
+      ]
+    },
+    "Margarita": {
+      "name": "Site de mariage",
+      "folderName": "margarita",
+      "description": "Le but de ce site est d'annoncer et d'héberger toutes les informations nécessaires liées au futur mariage de Bertrand & Margarita.",
+      "smallDescription": "Un site pour annoncer et héberger toutes les informations nécessaires liées à un futur mariage.",
+      "context": "Pendant que je parlais avec Bertrand, j'ai réalisé qu'il avait du mal à trouver une bonne solution sans code pour créer le site Web de son mariage. C'était notamment dû au fait qu'il voulait de l'interactivité et différentes langues disponibles. Quand il me l'a expliqué, je lui ai proposé de créer le site web qu'il souhaitait.",
+      "date": "Juillet 2022",
+      "web": "https://www.margarita-et-bertrand.fr/",
+      "type": "Website",
+      "tags": ["Gastby"],
+      "traiter": [
+        "Nous avons d'abord organisé des appels vidéo pour qu'ils puissent me décrire ce qu'ils voulaient sur leur site Web.",
+        "Ensuite, j'ai commencé à concevoir le site Web sur Figma, et après quelques modifications dues à leurs retours, nous nous sommes mis d'accord sur les maquettes finales.",
+        "Après cela, j'ai commencé à coder le site Web à l'aide de Gastby et lorsqu'ils ont vérifié que tout fonctionnait comme ils le souhaitaient, j'ai mis le site Web en ligne sur Netlify."
       ]
     },
     "tgeu": {
@@ -146,7 +191,9 @@
       "context": "A l'occasion du jour international contre l'homophobie, la biphobie et la transphobie, TGEU (Trans Gender Europe) voulait construire un site internet qui représente la répartition des droits des personnes trans en Europe et en Asie Centrale. Ils voulaient que cette répartition soit représentée sur des cartes et ils nous fournissaient les donées sous forme de tableaux Excel.",
       "date": "Avril - Mai 2021",
       "company": "Wolfox",
-      "team": "Mia Chávez Ruz",
+      "team": [{"name": "Mía Chávez Ruz", "link": "https://www.linkedin.com/in/miachavezruz/"}],
+      "type": "Website",
+      "tags": ["Preact", "SVG"],
       "process": [
         "Dans un premier temps, Mia et moi avons eu un meeting avec l'équipe de TGEU : ils nous ont expliqué ce qu'ils souhaitaient, quelles seraient les données avec lesquelles nous allions travaillé et combien de temps nous avions.",
         "Ensuite, Mia s'est concentrée sur le design et quand elle a fini, je me suis occupé du codage. J'ai utilisé Preact, une version plus légère de React, car il souhaitaient avoir un site plus léger et respectueux de l'environnement.",
@@ -163,12 +210,28 @@
       "context": "De nos jours, un des derniers secteurs utilisant encore plus de papier que de fichiers numériques est l'immobilier. C'est pourquoi l'équipe d'Ublo a décidé de créer cette solution. Elle se concentre principalement sur la réduction des coûts pour le manager et sur l'amélioration de l'expérience des résidents.",
       "date": "Juin & Juillet 2021",
       "company": "Ublo",
-      "team": "Équipe dev d'Ublo",
+      "type": "Website",
+      "tags": ["React", "Nodejs", "Docker", "MongoDB"],
       "process": [
         "Dans un premier temps, j'ai aidé l'équipe de développement en créant de nombreux composants et écrans, en utilisant React, Tailwind et Material UI.",
         "Ensuite, ils m'ont mis en charge du dashboard statistiques. J'ai du d'abord créer le design sur Figma, en faisant bien attention de respecter le design system déjà en place.",
         "Quand mon design a été validé par l'équipe, j'ai commencé à l'implémenter, en premier avec des fausses données. Ensuite, j'ai créé les requêtes nécessaires dans le backend et je les ai lié au frontend.",
         "Dès que j'ai fini cette mission, on m'en a donné une nouvelle : celle de conteneuriser le backend en utilisant Docker. J'ai utilisé un fichier docker-compose pour lier ce backend à la base de données MongoDB. Et enfin, ma dernière mission a été de déployer ce conteneur Docker sur AWS en utilisant le module ECS."
+      ]
+    },
+    "valentine": {
+      "name": "Blog de Valentine",
+      "folderName": "valentine",
+      "description": "Ce site fait office de blog pour Valentine, une designer UX-UI qui travaille à Paris. Ce blog a un très faible impact environnemental et présente son travail et ses méthodes.",
+      "smallDescription": "Ce site fait office de blog pour Valentine, une designer UX-UI qui travaille à Paris.",
+      "context": "Comme Valentine voulait se lancer en tant que designer indépendante, elle a décidé que c'était une bonne idée de créer un blog où elle pourrait ajouter des articles sur ses idées et ses méthodes.",
+      "date": "juin 2022",
+      "web": "https://valentine.eco/",
+      "type": "Blog",
+      "tags": ["Gastby", "Strapi"],
+      "traiter": [
+        "Elle a commencé par me détailler ce qu'elle souhaitait. Elle m'a montré son design et a insisté sur l'importance d'avoir un site web à très faible impact environnemental.",
+        "J'ai décidé d'utiliser la combinaison de Gatsby et Strapi. Pourquoi ? Parce que Gastby est très léger et efficace, et Strapi parce que c'est un backend de blog très facile à mettre en place, qui fonctionne bien avec Gastby."
       ]
     }
   }

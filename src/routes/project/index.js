@@ -7,6 +7,7 @@ import Container from "../../components/container";
 import Footer from "../../components/footer";
 import Signature from "../../components/signature";
 import SmallRect from "../../components/smallRect";
+import Tags from "../../components/tags";
 
 import { github_medium } from "../../assets/icons";
 import Skill from "../../components/skill";
@@ -16,6 +17,10 @@ import en from "../../assets/data/languages/en.json";
 import * as images from "../../assets/images";
 import { Text } from "../../components/language";
 import { useParams } from "react-router-dom";
+
+const getSeeOtherProjects = (projectName) => {
+  return ["mangakan", "valentine", "tgeu", "iki"].filter(p => p !== projectName)
+}
 
 export default () => {
   const { project } = useParams();
@@ -41,10 +46,11 @@ export default () => {
             <h1>
               <Text id={`projects.${project}.name`} />
             </h1>
+            {en.projects[project].tags && <Tags type={en.projects[project].type} tags={en.projects[project].tags} />}
             <p>
               <Text id={`projects.${project}.description`} />
             </p>
-            <div>
+            <div className={style.web}>
               {en.projects[project].web && (
                 <a
                   href={en.projects[project].web}
@@ -101,9 +107,14 @@ export default () => {
                 <h3>
                   <Text id="project.context.team" />
                 </h3>
-                <p>
-                  <Text id={`projects.${project}.team`} />
-                </p>
+                {en.projects[project].team.map((person, index) => <a
+                  href={person.link}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p>{person.name + (index === en.projects[project].team.length - 2 ? ' & ' : index !== en.projects[project].team.length - 1 ? ' , ' : '')}</p>
+                </a>
+                )}
               </div>
             )}
           </div>
@@ -157,14 +168,7 @@ export default () => {
             <Text id="project.more.subtitle" />
           </h3>
           <div className={style.skills}>
-            {(project === "tgeu"
-              ? ["dataneo", "mangakan", "ublo"]
-              : project === "ublo"
-              ? ["tgeu", "mangakan", "dataneo"]
-              : project === "mangakan"
-              ? ["tgeu", "dataneo", "ublo"]
-              : ["tgeu", "mangakan", "ublo"]
-            ).map((projectName) => (
+            {getSeeOtherProjects(project).map((projectName) => (
               <Skill
                 image={images[projectName].preview}
                 link={`../project/${projectName}`}

@@ -10,6 +10,7 @@ import en from '../../assets/data/languages/en.json'
 import { github_medium, web } from '../../assets/icons'
 
 import { shape1 } from '../../assets/images'
+import Tags from '../tags';
 
 export default ({project}) => {
 
@@ -26,8 +27,9 @@ export default ({project}) => {
         <div className={style.info}>
             <Link className={style.image} style={{ textDecoration: hover ? 'underline' : null }} to={`project/${project}`} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}><h2><Text id={`projects.${project}.name`} /></h2></Link>
             <h4><Text id={`projects.${project}.date`} /></h4>
+            {en.projects[project].tags && <Tags type={en.projects[project].type} tags={en.projects[project].tags} />}
             <small><Text id={`projects.${project}.description`} /></small>
-            <div>
+            <div className={style.lastpart}>
                 {en.projects[project].web && <a href={en.projects[project].web} rel="noreferrer" target="_blank"><img src={web} alt='webLink' /></a>}
                 {en.projects[project].github && <a href={en.projects[project].github} rel="noreferrer" target="_blank"><img src={github_medium} alt='githubLink' /></a>}
             </div>

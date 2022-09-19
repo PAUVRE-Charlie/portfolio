@@ -16,7 +16,6 @@ export default () => {
                 <h3><Text id='footer.subtitle' /></h3>
                 <div>
                     <h3><Text id='footer.mail' /></h3>
-                    <h3><Text id='footer.tel' /></h3>
                 </div>
             </div>
             <img src={images.deerEating} />
